@@ -8,16 +8,16 @@
 //## Gray and brand colors for use across Bootstrap.
 
 @gray-darker:            lighten(#000, 13.5%); // #222
-@gray-dark:              #7b8a8b;   // #333
-@gray:                   #95a5a6; // #555
-@gray-light:             #b4bcc2;   // #999
-@gray-lighter:           #ecf0f1; // #eee
+@gray-dark:              #333;   // #333
+@gray:                   #999; // #555
+@gray-light:             #aaa;   // #999
+@gray-lighter:           #ccc; // #eee
 
-@brand-primary:         #2C3E50;
-@brand-success:         #18BC9C;
-@brand-info:            #3498DB;
-@brand-warning:         #F39C12;
-@brand-danger:          #E74C3C;
+@brand-primary:         #222;
+@brand-success:         #444;
+@brand-info:            #555;
+@brand-warning:         #ccc;
+@brand-danger:          #f99;
 
 
 //== Scaffolding
@@ -60,6 +60,7 @@
 @line-height-base:        1.428571429; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
+//@line-height-computed:   1px;
 
 //** By default, this inherits from the `<body>`.
 @headings-font-family:    @font-family-base;
@@ -80,17 +81,17 @@
 //
 //## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
 
-@padding-base-vertical:     10px;
-@padding-base-horizontal:   15px;
+@padding-base-vertical:     5px;
+@padding-base-horizontal:   8px;
 
-@padding-large-vertical:    18px;
-@padding-large-horizontal:  27px;
+@padding-large-vertical:    10px;
+@padding-large-horizontal:  17px;
 
-@padding-small-vertical:    6px;
-@padding-small-horizontal:  9px;
+@padding-small-vertical:    3px;
+@padding-small-horizontal:  5px;
 
 @padding-xs-vertical:       1px;
-@padding-xs-horizontal:     5px;
+@padding-xs-horizontal:     3px;
 
 @line-height-large:         1.33;
 @line-height-small:         1.5;
@@ -662,7 +663,7 @@
 //##
 
 @panel-bg:                    #fff;
-@panel-body-padding:          15px;
+@panel-body-padding:          8px;
 @panel-border-radius:         @border-radius-base;
 
 //** Border color for elements within panels
@@ -693,6 +694,7 @@
 @panel-danger-border:         @state-danger-border;
 @panel-danger-heading-bg:     @state-danger-bg;
 
+@panel-margin-bottom:	      10px;
 
 //== Thumbnails
 //
